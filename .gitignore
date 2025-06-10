@@ -1,0 +1,5 @@
+# Ignore SpecFlow generated feature file code-behind files
+PlaywrightAI.Specs/Features/*.feature.cs
+PlaywrightAI.Specs/Features/*.feature.*.cs
+PlaywrightAI.Specs/Features/**/*.feature.cs
+PlaywrightAI.Specs/Features/**/*.feature.*.cs
