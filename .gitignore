@@ -3,3 +3,26 @@ PlaywrightAI.Specs/Features/*.feature.cs
 PlaywrightAI.Specs/Features/*.feature.*.cs
 PlaywrightAI.Specs/Features/**/*.feature.cs
 PlaywrightAI.Specs/Features/**/*.feature.*.cs
+# Ignore build output and binaries
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+# Ignore Playwright binaries and cache
+**/.playwright/
+# Ignore test results
+TestResults/
+*.trx
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore Rider/JetBrains files
+.idea/
+*.iml
+# Ignore Visual Studio Code settings
+.vscode/
+# Ignore LivingDoc HTML report
+LivingDoc.html
