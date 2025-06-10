@@ -56,3 +56,8 @@ Other test results (such as `.trx` files) are available in the `PlaywrightAI.Spe
 - Parallelism is set in `AssemblyInfo.cs` but can be overridden at runtime with the `NUnit.NumberOfTestWorkers` option.
 - Use tags (`@UI`, `@API`) in your feature files to organize and filter tests.
 - **Reporting Limitation:** LivingDoc HTML report generated with SpecFlow.Plus.LivingDocPlugin and NUnit will only show feature/scenario structure, not execution results (pass/fail), especially on .NET 9. For execution results in LivingDoc, use SpecFlow+ Runner and .NET 6/7/8.
+
+---
+
+## Credits
+This project was created by kothasumanth.
